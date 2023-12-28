@@ -1,21 +1,30 @@
 {
-  "name": "resume3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "name": "Resume3_vitalik203",
+  "version": "1.2.2",
+  "description": "Your project description",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitalik203/Resume_three.git"
   },
-  "author": "Vitalii",
-  "license": "ISC",
+  "keywords": [
+    "keyword1",
+    "keyword2"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vitalik203/Resume_three/issues"
+    "url": "https://github.com/vitalik203/Resume_three.git"
   },
-  "homepage": "https://github.com/vitalik203/Resume_three#readme",
+  "homepage": "https://github.com/vitalik203/Resume_three.git",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^11.1.0",
@@ -23,6 +32,9 @@
     "@semantic-release/github": "^9.2.6",
     "@semantic-release/npm": "^11.0.2",
     "@semantic-release/release-notes-generator": "^12.1.0",
-    "semantic-release": "^22.0.12"
+    "eslint": "^7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
