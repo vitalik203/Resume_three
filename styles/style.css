@@ -1,1 +1,72 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 595px;
+  height: 842px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 595px;
+  height: 176px;
+  flex-shrink: 0;
+  background: rgba(228, 246, 251, 0.5);
+}
+.header .col1__main-logo {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 72px;
+  border: 1px solid #D9D9D9;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+.header .name_box__name {
+  color: #222;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 130.769% */
+}
+.header .name_box__proffession {
+  color: #1C8EB5;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.header .col1__description {
+  color: #222;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 140% */
+}
+.header .contacts__block__title {
+  color: #1C8EB5;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 140% */
+}
+.header .contacts__block__info {
+  color: #222;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px; /* 140% */
+  text-decoration-line: underline;
+}/*# sourceMappingURL=style.css.map */
