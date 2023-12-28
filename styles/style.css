@@ -11,6 +11,8 @@ body {
 .container {
   width: 595px;
   height: 842px;
+  border: 2px solid grey;
+  overflow: hidden;
 }
 
 .header {
@@ -112,20 +114,19 @@ main .col__article {
   margin: 24px 0 24px 0;
 }
 main .article__title {
-  color: #797979;
-  /* Label */
-  font-family: Prata;
-  font-size: 11px;
+  color: #222;
+  font-family: Poppins;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 16px; /* 145.455% */
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
 }
 main .article__description {
   color: #222;
   font-family: Poppins;
   font-size: 10px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 14px; /* 140% */
 }
 main .article__subtitle {
