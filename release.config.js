@@ -1,5 +1,5 @@
 module.exports = {
-    branches: ['master', 'develop'],
+    branches: ['develop'],
     repositoryUrl: 'https://github.com/vitalik203/Resume_three.git',
     plugins: [
         '@semantic-release/commit-analyzer',
