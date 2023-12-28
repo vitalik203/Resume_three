@@ -1,0 +1,140 @@
+<div class="container">
+        <header class="header">
+            <div class="header__col1 col1">
+                <div class="col1__main">
+                    <img src="img/116501209 (1).jpg" alt="Logo" class="col1__main-logo">
+                    <div class="col1__main-name_box name_box">
+                        <h1 class="name_box__name">Vitalii Zaluskii</h1>
+                        <p class="name_box__proffession">Junior Front-end Developer</p>
+                    </div>
+                </div>
+                <div class="col1__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque illo dicta omnis neque, ducimus incidunt repellat nemo, quisquam obcaecati cum sunt beatae voluptates ad, in porro natus iusto voluptas asperiores.</div>
+            </div>
+            <div class="header__col2 col2">
+                <div class="col2__contacts contacts">
+                    <div class="contacts__block">
+                        <p class="contacts__block__title">Mail</p>
+                        <a href="" class="contacts__block__info">mymail@gmail.com</a>
+                    </div>
+                    <div class="contacts__block">
+                        <p class="contacts__block__title">GitHub</p>
+                        <a href="" class="contacts__block__info">github.com/myprofile</a>
+                    </div>
+                    <div class="contacts__block">
+                        <p class="contacts__block__title">Linkedin</p>
+                        <a href="" class="contacts__block__info">https://www.linkedin.com/myprofile</a>
+                    </div>
+                </div>
+                    
+            </div>
+        </header>
+        <main class="page">
+        </main>
+        <footer class="footer">
+            
+            
+        </footer>
+    </div>
+
+
+
+
+html{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 595px;
+height: 842px;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 595px;
+height: 176px;
+flex-shrink: 0;
+background: rgba(228, 246, 251, 0.50);
+    .header__col1 {
+    }
+    .col1 {
+    }
+    .col1__main {
+    }
+    .col1__main-logo {
+        width: 58px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 72px;
+border: 1px solid #D9D9D9;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+    .col1__main-name_box {
+    }
+    .name_box {
+    }
+    .name_box__name {
+        color: #222;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 34px; /* 130.769% */
+    }
+    .name_box__proffession {
+        color: #1C8EB5;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+    }
+    .col1__description {
+        color: #222;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 140% */
+    }
+    .header__col2 {
+    }
+    .col2 {
+    }
+    .col2__contacts {
+    }
+    .contacts {
+    }
+    .contacts__block {
+    }
+    .contacts__block__title {
+        color: #1C8EB5;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 14px; /* 140% */
+    }
+    .contacts__block__info {
+        color: #222;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px; /* 140% */
+text-decoration-line: underline;
+    }
+}
+.page {
+}
+.footer {
+}
